@@ -1,0 +1,7 @@
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="search here..."
+    name="todo" [(ngModel)]="todoTitle">
+    <div class="input-group-append">
+        <button (click)="handleTodo()" type="submit" class="btn btn-info">Add list</button>
+    </div>
+</div>
